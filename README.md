@@ -19,27 +19,32 @@ This is a restful api built with Node.js, express, and Prisma for managing tasks
 
 # Installation
 
-1. ** Clone the repository **
+1. **Clone the repository**
+
 `git clone https://github.com/fatuma65/todo-react-app-backend.git`
 
-2. Install dependencies
+2. **Install dependencies**
+
 npm install
 
-3. Set up environment variables
+3. **Set up environment variables**
+
 Create a `.env` file in the root directory and add your variables
 ```env
 DATABASE_URL='your database url'
 PORT=4000
 ```
 
-4. Run Database Migrations 
+4. **Run Database Migrations**
+
 Apply prisma migrations to set up your schema
 `npx prisma migrate dev --name init`
 
-5. Start the server
-Using nodemon `npm run dev`
+5. **Start the server**
 
-Using node `node index.js`
+Using nodemon - `npm run dev`
+
+Using node - `node index.js`
 
 # API Endpoints
 
